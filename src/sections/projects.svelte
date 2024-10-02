@@ -4,7 +4,7 @@
 			title: 'GitBar',
 			link: 'https://mikaelkristiansson.github.io/gitbar',
 			description:
-				'A native system tray app which notifies when you have a new code review and also list all your awaiting reviews.',
+				'A native system tray app which notifies when you have a new code review and also lists all of your awaiting reviews.',
 			tag: 'app'
 		},
 		{

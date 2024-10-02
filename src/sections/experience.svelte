@@ -3,27 +3,27 @@
 		{
 			title: 'Nordfin',
 			description:
-				'Create new design and cms for home page, redesign the customer platform and rewrite in React',
+				'Creating a new design and cms for the home page, redesigning the customer platform and rewriting it in React.',	
 			link: 'https://nordfincapital.com',
 			time: '2023'
 		},
 		{
 			title: 'Schibsted (MittBolån, Lendo)',
-			description: 'Working on a loan comparison site for private loans in React (Gatsby + NextJS)',
+			description: 'Working on a loan comparison site for private loans in React (Gatsby + NextJS).',
 			link: 'https://lendo.se',
 			time: '2017 - 2022'
 		},
 		{
 			title: 'Edimia Education',
 			description:
-				'Creating fully digital school material for pre-school kids in JS and Angular. Project was later sold to Albert (see link).',
+				'Creating fully digital school material for pre-school kids in JS and Angular. The project was later sold to Albert (see link).',
 			link: 'https://hejalbert.se/',
 			time: '2013 - 2017'
 		},
 		{
 			title: 'Sanoma/Bonnier Utbildning',
 			description:
-				'Creating interactive school material for whiteboards in Flash and creating a math app in HTML for kids',
+				'Creating interactive school material for whiteboards in Flash and creating a math app in HTML for kids.',
 			link: 'https://www.sanomautbildning.se',
 			time: '2010 - 2013'
 		}

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { sections } from '$lib/sections';
-	import Reavealed from 'components/Reavealed.svelte';
+	import Revealed from 'components/Revealed.svelte';
 	import Code from '../sections/code.md';
 </script>
 
@@ -17,7 +17,7 @@
 				<div>
 					<h1 class="text-4xl md:text-6xl text-white font-bold">Mikael Kristiansson</h1>
 					<h3 class="text-xl md:text-2xl text-white/90 italic">
-						$ <span class="text-aquamarine-300">Webdeveloper</span>
+						$ <span class="text-aquamarine-300">WebDeveloper</span>
 					</h3>
 				</div>
 			</div>
@@ -37,7 +37,7 @@
 		<div class="px-4 pt-20 pb-10 md:pt-20 md:pb-20 space-y-20">
 			<p>
 				<strong class="font-medium">Hi</strong>, my name is Mikael Kristiansson<br />
-				and Im a software engineer/web-developer and has been since
+				and I'm a software engineer/web-developer and have been since
 				<span class="underline decoration-dotted">2010</span>. <br />
 				I define myself as a frontend developer, but I do also have knowledge in backend and infra.
 			</p>
@@ -49,12 +49,12 @@
 			class="container max-w-[1200px] mx-auto px-4 pb-20 md:pb-40 space-y-20"
 			id={section.id}
 		>
-			<Reavealed
+			<Revealed
 				class="relative transition-[transform,opacity] will-change-contents"
 				options={{ opacity: 0, y: 10, duration: 1000, delay: 400 }}
 			>
 				<svelte:component this={section.component} />
-			</Reavealed>
+			</Revealed>
 		</section>
 	{/each}
 </div>
